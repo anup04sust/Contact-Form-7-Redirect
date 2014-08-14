@@ -3,9 +3,9 @@
   Plugin Name: Contact Form 7 Redirect
   Plugin URI: http://wordpress.org/plugins/contact-form-7-addonce/
   Description: This plugin is a addonce of Contact Form 7. After Submittions its make functionality to go a thank you page.
-  Author: Anup Biswas @illusivedesign
+  Author: Anup Biswas
   Version: 1.6
-  Author URI: http://illusivedesign.ca
+  Author URI: https://github.com/anup04sust
  */
 
 add_action('wpcf7_admin_after_form', 'wpcf7_addonce_redirect_metabox', 2, 100);
